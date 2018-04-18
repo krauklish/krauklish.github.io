@@ -21,7 +21,7 @@
 
 body {
 	padding: 1rem 0.5rem 0 1.25rem;
-	font-family: "Roboto Mono", monospace;
+	font-family: "Helvetica", sans-serif;
 	background: #FFFCFC;
 	height: 1px;
 }
@@ -169,7 +169,7 @@ h1 {
 
 a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
-	border-bottom: 1px solid;
+	border-bottom: none;
 }
 
 a:link {
@@ -203,7 +203,7 @@ a:hover {
 .item__caption {
 	display: inline;
 	color: #004794;
-	border-bottom: .12em solid #004794;
+	border-bottom: none;
 	text-decoration: none;
 	transition-property: color, border-color;
 	transition-duration: .3s;
@@ -296,6 +296,9 @@ body,
 	}
 	.item__cover {
 		margin: 1.5em 0 0 0;
+	}
+	.item__cover.he {
+		margin: 1em 0 -2% -2%;
 	}
 	.item__cover.drums {
 		margin-top: 0;
