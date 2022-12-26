@@ -109,10 +109,6 @@ hr {
 	flex-wrap: wrap;
 }
 
-.project-details__item {
-	/* ПОДОБРАТЬ min-width: 350px; */
-}
-
 /* ----- TEXT ----- */
 
 html {
@@ -130,6 +126,7 @@ h1 {
 .aside__header {
 	max-width: 10rem;
 	font-size: 1.25rem;
+	line-height: 1.8rem;
 	font-weight: bold;
 	margin-top: 0;
 }
@@ -140,7 +137,7 @@ h1 {
 
 .aside__text {
 	font-size: 1.25rem;
-	line-height: 2rem;
+	line-height: 1.8rem;
 }
 
 .aside__left-hand-path {
