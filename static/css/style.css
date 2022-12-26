@@ -1,4 +1,4 @@
-/* DIRTY ADDING SOON */
+/* DIRTY COMING SOON */
 
 .item__caption.item__caption--coming-soon {
 	color: #000;
@@ -101,7 +101,7 @@ hr {
 }
 
 .project-details {
-	/* может быть нужен position: relative; ???*/
+	/* maybe position: relative; ???*/
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -261,12 +261,13 @@ body,
 		padding-bottom: 4rem;
 	}
 	aside {
-		background: url('../img/head.png') no-repeat left top;
+		background: url('/static/img/gleb.jpg') no-repeat left top;
+		background-size: 64px 64px;
 		position: fixed;
 		width: 10rem;
 		display: block;
-		padding-top: 3rem;
-		padding-left: 3rem;
+		padding-top: 6rem;
+		padding-left: 0rem;
 	}
 	.rainy-sp {
 		bottom: 0;
