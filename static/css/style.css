@@ -14,7 +14,7 @@
 	font-size: 14px;
 	margin: 0;
 	padding: 0 3px;
-	content: "Скоро добавлю"
+	content: "Coming soon"
 }
 
 /*LAYOUT*/
@@ -35,8 +35,7 @@ aside {
 }
 
 
-.rainy-sp {
-	background: url("../img/rainy.png") no-repeat left top;
+.zlata-praha {
 	padding-left: 3rem;
 	padding-top: 3rem;
 	margin-top: 3rem;
