@@ -240,16 +240,16 @@ body,
 	body {
 		padding: 2rem;
 	}
+
+	.aside__text {
+		padding-left: 24px;
+	}
 }
 
 @media (min-width: 550px) {
 	.container {
 		font-size: 1rem;
 		/*max-width: 1200px;*/
-	}
-
-	.aside__text {
-		padding-left: 32px;
 	}
 }
 
