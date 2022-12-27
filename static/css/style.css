@@ -20,7 +20,7 @@
 /*LAYOUT*/
 
 body {
-	padding: 1rem 0.5rem 0 1.25rem;
+	padding: 1rem 1rem 0 1rem;
 	font-family: "Helvetica", sans-serif;
 	background: #FFFCFC;
 	height: 1px;
@@ -230,7 +230,7 @@ body,
 .container,
 .side,
 .item {
-	transition: all .2s ease-in;
+	transition: all .15s ease-in;
 }
 
 
@@ -249,7 +249,6 @@ body,
 @media (min-width: 550px) {
 	.container {
 		font-size: 1rem;
-		/*max-width: 1200px;*/
 	}
 }
 
@@ -281,7 +280,7 @@ body,
 		bottom: 0;
 	}
 	.item {
-		margin: 0 5em 5em 0;
+		margin-bottom: 5em;
 		position: relative;
 	}
 	.item__caption.xl {
@@ -319,8 +318,9 @@ body,
 @media (min-width: 1441px) {
 	.container {
 		padding-left: 23rem;
+		max-width: 1720px;
 	}
 	.item {
-		margin: 0 7em 7em 0;
+		margin-bottom: 6em;
 	}
 }
