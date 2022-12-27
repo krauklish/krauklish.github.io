@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/static/img/favicon.png">
 	
-	<title>Table View for Wrike</title>
+	<title>New Table View for Wrike</title>
 	
 </head>
 
@@ -50,17 +50,33 @@
     <header>
       <p class="aside__header"><a href="/">Gleb Krauklish</a></p>
     </header>
-    <h1>Table View for Wrike</h1>
-    <p class="project__text">
-      
-    </p>
-    <img src="/static/img/table-view/table.png" class="project__image--bounded project__image--browser">
+    <h1>New Table View for Wrike</h1>
 
     <p class="project__text">
-      
+      Table view is the most popular and powerful view in Wrike. It helps people to see and edit any data of their projects and tasks in a familiar spreadsheet-like UI. 
     </p>
-    <img src="/static/img/table-view/new-doc.png" class="project__image--bounded project__image--browser">
 
+    <p class="project__text">
+      I’ve been working on Table for almost four years, improving it step by step. However, in 2021 we realized that we couldn’t make it as fast as our users demanded without completely rebuilding it. So we build a new version: faster, friendlier, and more powerful than before.
+    </p>
+
+    <p class="project__text">
+      We started with a technical problem, and together with backend and frontend engineers redesigned our loading algorithm. All data is loaded partially now, which allows users to painlessly work with thousands of rows. While it was a huge engineering effort, my role was to understand and provide the right constraints: how much do we need to pre-load so users won’t wait too long and later won’t look at skeletons all the time?
+    </p>
+    
+    <p class="project__text">
+      While interviewing users, I realized that one of the most time-consuming problems for them was switching between Table and List views: List provided access to unique features, but otherwise, people preferred Table. That’s why we decided to build a new Table as a List replacement suitable for typical users of both views.
+    </p>
+    
+    <p class="project__text">
+      Finally, I analyzed the usage data to understand what typical actions might be done faster. Cells are now edited with a single click, rows are added as fast as one could type, and task details are opened in the side panel (so one can quickly copy and paste data from one part to the other).
+    </p>
+    
+    <p class="project__text">
+      New Table is currently available to some Wrike users via a beta testing program. We get extremely positive feedback about its responsiveness and look & feel. We also see that our key metrics dedicated to a user’s speed of work are improved.
+    </p>
+    
+    <!-- Content Templates
     <p class="project__text">
       
     </p>
@@ -68,31 +84,8 @@
       <source src="/static/img/table-view/reports-video.mov" type="video/mp4">
       <img src="/static/img/table-view/reports-fallback.png" title="Здесь должно быть видео, но что-то пошло не так">
     </video>
-    <!-- div class="project-details">
-      <section class="project-details__item">
-        <img src="/static/img/table-view/detail1.png" class="project__image">
-      </section>
-      <section class="project-details__item">
-        <img src="/static/img/table-view/detail2.png" class="project__image">
-      </section>
-      <section class="project-details__item">
-        <img src="/static/img/table-view/detail3.png" class="project__image">
-      </section>
-    </div-->
-    <p class="project__text">
-      
-    </p>
-    <img src="/static/img/table-view/assignment.png" class="project__image--bounded project__image--browser">
-    <!-- img src="/static/img/table-view/automatics.png" class="project__image"-->
-    
-    <p class="project__text">
-      
-    </p>
-    <!-- img src="/static/img/table-view/errors.png" class="project__image" -->
-    <p class="project__text">
-      
-    </p>
     <img src="/static/img/table-view/ui-kit.png" class="project__image">
+     -->
   </article>
 
 
