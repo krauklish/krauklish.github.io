@@ -140,6 +140,10 @@ h1 {
 	line-height: 1.8rem;
 }
 
+.aside__text a {
+	border-bottom: 1px solid;
+}
+
 .aside__left-hand-path {
 	color: rgba(6,6,6,0);
 }
@@ -165,12 +169,11 @@ h1 {
 
 a:link, a:visited, a:hover, a:active {
 	text-decoration: none;
-	border-bottom: none;
 }
 
 a:link {
 	color: #004794;
-	border-color: #004794;
+	border-color: rgba(0, 71, 148, 0.32);
 	transition-property: color, border-color;
 	transition-duration: .15s;
 	transition-timing-function: ease-in;
@@ -178,7 +181,7 @@ a:link {
 
 a:visited {
 	color: #55224c;
-  border-color: #55224c;
+  	border-color: rgba(85, 34, 76, 0.32);
 	transition-property: color, border-color;
 	transition-duration: 0s;
 	transition-timing-function: ease-in;
@@ -186,7 +189,7 @@ a:visited {
 
 a:hover {
 	color: #FF5141;
-  border-color: #FF5141;
+  	border-color: rgba(255, 81, 65, 0.32);
 	transition-property: color, border-color;
 	transition-duration: 0s;
 	transition-timing-function: ease-in;
