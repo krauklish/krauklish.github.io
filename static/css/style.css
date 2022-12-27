@@ -29,7 +29,7 @@ body {
 aside {
 	display: flex;
 	margin: 0 0 3rem 0;
-	justify-content: space-between;
+	justify-content: start;
 	align-items: baseline;
 	/*padding-left: 5rem;*/
 }
@@ -63,10 +63,10 @@ hr {
 .container {
 	font-size: 0.8rem;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	flex-grow: 1;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .item__cover {
@@ -124,10 +124,10 @@ h1 {
 }
 
 .aside__header {
-	max-width: 10rem;
+	/* max-width: 10rem; */
 	font-size: 1.25rem;
 	line-height: 1.8rem;
-	font-weight: bold;
+	font-weight: 600;
 	margin-top: 0;
 }
 
@@ -199,7 +199,7 @@ a:hover {
 .item__caption {
 	display: inline;
 	color: #004794;
-	border-bottom: none;
+	border-bottom: 1px solid rgba(0, 71, 148, 0.32);
 	text-decoration: none;
 	transition-property: color, border-color;
 	transition-duration: .3s;
@@ -209,7 +209,7 @@ a:hover {
 
 a:visited .item__caption {
 	color: #55224c;
-  border-color: #55224c;
+    border-color: rgba(85, 34, 76, 0.32);
 	text-decoration: none;
 	transition-property: color, border-color;
 	transition-duration: 0s;
@@ -217,7 +217,7 @@ a:visited .item__caption {
 
 a:hover .item__caption {
 	color: #FF5141;
-  border-color: #FF5141;
+    border-color: rgba(255, 81, 65, 0.32);
 	text-decoration: none;
 	transition-property: color, border-color;
 	transition-duration: 0s;
@@ -238,7 +238,7 @@ body,
 
 @media (min-width: 400px) {
 	body {
-		padding: 2rem 1rem 0 2.5rem;
+		padding: 2rem;
 	}
 }
 
@@ -247,6 +247,10 @@ body,
 		font-size: 1rem;
 		/*max-width: 1200px;*/
 	}
+
+	.aside__text {
+		padding-left: 32px;
+	}
 }
 
 @media (min-width: 960px) {
@@ -254,7 +258,7 @@ body,
 		font-size: 12px;
 	}
 	body {
-		padding: 2rem 3rem;
+		padding: 2rem;
 	}
 	.container {
 		padding-left: 22rem;
@@ -264,10 +268,14 @@ body,
 		background: url('/static/img/gleb.jpg') no-repeat left top;
 		background-size: 64px 64px;
 		position: fixed;
-		width: 10rem;
+		/* width: 10rem; */
 		display: block;
 		padding-top: 6rem;
 		padding-left: 0rem;
+	}
+
+	.aside__text {
+		padding-left: 0;
 	}
 	.rainy-sp {
 		bottom: 0;
