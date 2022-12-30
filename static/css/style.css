@@ -101,8 +101,13 @@ html {
 }
 
 h1, h2, h3, h4 {
-	font-family: "Normalidad Extended Bold";
-	font-weight: normal;
+	font-family: 
+		"Normalidad Extended Bold",
+		-apple-system, 
+		BlinkMacSystemFont, 
+		"Helvetica", 
+		sans-serif;
+	font-weight: 700;
 	font-style: normal;
 }
 
