@@ -1,6 +1,7 @@
 /*LAYOUT*/
 
 body {
+	/* TODO: decrease body padding; increase side padding; align first header with side photo */
 	padding: 1rem 1rem 0 1rem;
 	font-family: 
 		-apple-system, 
