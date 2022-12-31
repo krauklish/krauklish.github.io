@@ -55,7 +55,7 @@ hr {
 }
 
 .item__cover {
-	margin: 1em 0 0 0;
+	margin: 12px 0 0 0;
 	max-width: 100%;
 	height: auto;
 }
@@ -154,7 +154,7 @@ h1 {
 }
 
 .item__info {
-	margin: 12px 0 0 0;
+	margin: 8px 0 0 0;
 }
 
 a .item__info {
@@ -297,7 +297,7 @@ body,
 		position: relative;
 	}
 	.item__caption.xl {
-		font-size: 3em;
+		font-size: 36px;
 	}
 	.item__header--top {
 		max-width: 254px;
@@ -312,10 +312,10 @@ body,
 		left: 0;
 	}
 	.item__cover {
-		margin: 1.5em 0 0 0;
+		margin: 20px 0 0 0;
 	}
 	.item__cover.he {
-		margin: 1em 0 -2% -2%;
+		margin: 8px 0 -2% -2%;
 	}
 	.item__cover.drums {
 		margin-top: 0;
@@ -330,10 +330,10 @@ body,
 
 @media (min-width: 1441px) {
 	.container {
-		padding-left: 23rem;
+		padding-left: 280px;
 		max-width: 1720px;
 	}
 	.item {
-		margin-bottom: 6em;
+		margin-bottom: 100px;
 	}
 }
