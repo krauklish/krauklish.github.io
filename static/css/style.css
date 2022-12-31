@@ -33,10 +33,6 @@ hr {
 	border: none;
 }
 
-::selection {
-	background: rgba(250, 48, 125, 1);
-}
-
 .item {
 	margin: 0 0 3.2em 0;
 	position: relative;
