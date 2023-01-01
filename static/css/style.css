@@ -57,6 +57,11 @@ hr {
 	height: auto;
 }
 
+.item__cover-decoration {
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.16), 0px 2px 8px rgba(0, 0, 0, 0.16);
+	border-radius: 4px;
+}
+
 .project {
 	font-size: 10px;
 	margin: auto;
