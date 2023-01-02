@@ -295,9 +295,9 @@ body,
 		max-width: 200px;
 	}
 
-	.aside__header:after {
+	/* .aside__header:after {
 	content: " →";
-	}
+	} */
 
 	.aside__text {
 		padding-left: 0;
