@@ -129,10 +129,6 @@ h1 {
 	margin-top: 0;
 }
 
-/*.aside__header:after {
-	content: " →";
-}*/
-
 .aside__text {
 	font-size: 1.25rem;
 	line-height: 1.8rem;
@@ -251,6 +247,10 @@ body,
 
 /* BREAKPOINTS */
 
+.aside__bio {
+	display: none;
+}
+
 @media (min-width: 400px) {
 	body {
 		padding: 2rem;
@@ -264,6 +264,12 @@ body,
 @media (min-width: 550px) {
 	.container {
 		font-size: 1rem;
+	}
+}
+
+@media (min-width: 760px) {
+	.aside__bio {
+		display: block;
 	}
 }
 
@@ -286,6 +292,11 @@ body,
 		display: block;
 		padding-top: 6rem;
 		padding-left: 0rem;
+		max-width: 200px;
+	}
+
+	.aside__header:after {
+	content: " →";
 	}
 
 	.aside__text {
