@@ -152,13 +152,14 @@ h1 {
 }
 
 .item__info {
-	margin: 8px 0 0 0;
 }
 
-a .item__info {
+p.item__info {
+	margin: 6px 0 0 0;
 	color: #000;
 	font-size: 16px;
 	font-weight: 400;
+	line-height: 1.4;
 }
 
 .project__text {
