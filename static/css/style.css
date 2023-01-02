@@ -134,7 +134,7 @@ h1 {
 	line-height: 1.8rem;
 }
 
-.aside__text a {
+.aside__text a, .project__text a, .aside__header a {
 	border-bottom: 1px solid;
 }
 
