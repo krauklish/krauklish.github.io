@@ -81,7 +81,9 @@
     <p class="project__text">
       Finally, I analyzed the usage data to understand what typical actions might be done faster. Cells are now edited with a single click, rows are added as fast as one could type. And as task details are opened in the side panel, one can easily copy and paste data from one part to the other.
     </p>
-    <!-- + adding tasks -->
+    <video id="borjes" class="project__image--bounded project__image--browser" width="1200" height="600" autoplay loop muted>
+      <source src="/static/img/table-view/table-new-tasks.mov" type="video/mp4">
+    </video>
 
     <p class="project__text">
       And of course, some classic spreadsheet features are also there. For instance, you can drag by corner to copy values, just like in Excel.
@@ -99,9 +101,13 @@
   <script type="text/javascript">
     const cover = document.getElementById('tv-cover');
     const before = document.getElementById('before-after');
+    const borjes = document.getElementById('borjes');
 
     cover.defaultPlaybackRate = 1.2;
     cover.load();
+
+    borjes.defaultPlaybackRate = 2.0;
+    borjes.load();
   </script>
 </body>
 </html>
