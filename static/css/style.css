@@ -151,9 +151,6 @@ h1 {
 	font-weight: bold;
 }
 
-.item__info {
-}
-
 p.item__info {
 	margin: 6px 0 0 0;
 	color: #000;
@@ -236,16 +233,6 @@ a:hover .item__caption {
 }
 
 
-/* TRANSITIONS */
-
-body,
-.container,
-.side,
-.item {
-	transition: all .15s ease-in;
-}
-
-
 /* BREAKPOINTS */
 
 .aside__bio {
@@ -307,7 +294,7 @@ body,
 		bottom: 0;
 	}
 	.item {
-		margin-bottom: 5em;
+		margin-bottom: 6em;
 		position: relative;
 	}
 	.item__caption.xl {
