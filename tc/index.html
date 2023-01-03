@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/static/img/favicon.png">
 	
-	<title>Веб-интерфейс «Приоритета»</title>
+	<title>Web Interface of Priority DMS</title>
 	
 </head>
 
@@ -48,46 +48,30 @@
 
   <article class="project">
     <header>
-      <p class="aside__header"><a href="/">Глеб Крауклиш</a></p>
+      <p class="aside__header"><a href="/">Gleb Krauklish</a></p>
     </header>
-    <h1>Веб-интерфейс «Приоритета»</h1>
+    <h1>Web Interface of Priority DMS</h1>
     <p class="project__text">
-      «Приоритет» — система документооборота, которой пользуются «Сбербанк», «Почта России» и несколько министерств. На замену сложной десктопной версии я спроектировал для нее веб-интерфейс.
+      «Priority» is a document management system used by Sberbank, Russian Post, and many other companies in Russia. As an addition to the good old desktop version, I designed a light web interface for it.
     </p>
     <img src="/static/img/tc/table.png" class="project__image--bounded project__image--browser">
     <p class="project__text">
-      Сотрудники создают в системе документы и направляют их на рассмотрение руководству. Руководители согласуют документы, дают по ним поручения и контролируют работу подчиненных. Интерфейс спроектирован так, чтобы и начальство, и исполнители быстро находили нужные возможности.
+      Employees create documents and send them to their managers for approval. Managers approve documents, sign them with electronic signatures, and check what how their subordinates are doing. The UI is designed so both the management and regular contributors easily find the functions they need.
     </p>
     <img src="/static/img/tc/new-doc.png" class="project__image--bounded project__image--browser">
     <p class="project__text">
-      Поскольку веб-интерфейс заменил многим пользователям Виндоус-приложение, было необходимо сохранить базовую логику работы и узнаваемые элементы, но сделать интерфейс современным и человечным. Я внедрил несколько решений, чтобы упростить монотонную работу с документами и уменьшить число ошибок: автосохранение, мягкое удаление, подсказки в формах.
+      The new web UI replaced the Windows app for many users, so it was necessary to preserve the basic logic and familiar elements, but make the UI friendly and modern. I’ve introduced several solutions to simplify dull work and prevent human errors: auto-saving, soft delete, hints in forms.
     </p>
     <video class="project__image--bounded" width="838" height="436" autoplay loop muted>
       <source src="/static/img/tc/reports-video.mov" type="video/mp4">
-      <img src="/static/img/tc/reports-fallback.png" title="Здесь должно быть видео, но что-то пошло не так">
     </video>
-    <!-- div class="project-details">
-      <section class="project-details__item">
-        <img src="/static/img/tc/detail1.png" class="project__image">
-      </section>
-      <section class="project-details__item">
-        <img src="/static/img/tc/detail2.png" class="project__image">
-      </section>
-      <section class="project-details__item">
-        <img src="/static/img/tc/detail3.png" class="project__image">
-      </section>
-    </div-->
     <p class="project__text">
-      Поскольку документооборот жестко регламентирован, многие действия пользователя предсказуемы. Везде, где это возможно, система делает работу сама: привязывает связанные документы, отмечает исполненными поручения, по которым есть отчеты, расчитывает сроки согласования.
+      Official document management is strictly regulated, so it’s quite easy to predict most users’ actions. When possible, the system works instead of a human: attaches related documents, marks requests with reports as completed, and calculates approval deadlines.
     </p>
     <img src="/static/img/tc/assignment.png" class="project__image--bounded project__image--browser">
-    <!-- img src="/static/img/tc/automatics.png" class="project__image"-->
+    
     <p class="project__text">
-      Система разговаривает человеческим языком: знает, как склонять фамилии и отличает «сегодня» от «вчера». Все сообщения для пользователей — грамматически правильные предложения. Если что-то пошло не так, система выдат осмысленные сообщения об ошибках и подсказывает, что делать.
-    </p>
-    <!-- img src="/static/img/tc/errors.png" class="project__image" -->
-    <p class="project__text">
-      Время от времени в системе появляются новые функции, необходимые для новых заказчиков или удобные для всех. Интерфейс спроектирован так, чтобы его можно было расширить без серьезной переработки. Чтобы новые элементы удачно вписывались в существующий дизайн, а разработчики заботились о функциях, а не о верстке, создан UI-кит с описанием базовых элементов-атомов, из которых складываются блоки, и принципов построения блоков.
+      The system keeps evolving, and new features are added from time to time. The UI is built from blocks, so it's possible to expand it without rebuilding. To help the developers seamlessly add new blocks, I created a simple UI kit. It describes atomic elements and principles of block building.
     </p>
     <img src="/static/img/tc/ui-kit.png" class="project__image">
   </article>
