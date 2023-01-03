@@ -157,6 +157,7 @@ p.item__info {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 1.4;
+	max-width: 800px;
 }
 
 .project__text {
@@ -230,6 +231,11 @@ a:hover .item__caption {
 	text-decoration-color: rgba(255, 81, 65, 0.5);
 	transition-property: color, border-color, text-decoration-color;
 	transition-duration: 0s;
+}
+
+.item__caption.no-link {
+	color: #000;
+	text-decoration: none;
 }
 
 
