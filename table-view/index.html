@@ -60,7 +60,7 @@
     </video>
     
     <p class="project__text">
-      I’ve been working on Table for almost four years, improving it step by step. However, in 2021 we realized that we couldn’t make it as fast as our users demanded without completely rebuilding it. So we built a new version: faster, friendlier, and more powerful than before.
+      I’ve been working on Table for almost four years, improving it step by step. I routinely interviewed users to find out what they miss and struggle with, but by the end of 2020 almost every person I talked to mostly complained about performance: their tables were loading too long or might become too slow. It was a clear case of a UX problem turning into a serious business hazard, as some of our biggest and most loved customers were on a verge of churning because of this. I run several workshops with engineering, and we tried to find a way to solve the issues, but quickly realized that we couldn’t make Table as fast as our users demanded without completely rebuilding it. So we built a new version: faster, friendlier, and more powerful than before. 
     </p>
     <video id="before-after" class="project__image--bounded project__image--browser" width="1200" height="600" autoplay loop muted>
       <source src="/static/img/table-view/table-old-vs-new.mov" type="video/mp4">
@@ -69,7 +69,7 @@
     <p class="project__text">
       We started with a technical problem, and together with backend and frontend engineers redesigned our loading algorithm. All data is loaded partially now, which allows users to painlessly work with thousands of rows. While it was a huge engineering effort, my role was to understand and provide the right constraints: for instance, how much do we need to pre-load so users won’t wait too long and later won’t look at skeletons all the time?
     </p>
-    <!-- img src="/static/img/table-view/table-nodes-loading.png" class="project__image--bounded project__image--browser" -->
+    <img src="/static/img/table-view/table-nodes-loading.png" class="project__image--bounded project__image--browser" width="1200" height="580">
     
     <p class="project__text">
       While interviewing users, I realized that one of the most time-consuming problems for them was switching between Table and List views: List provided access to unique features, but otherwise, people preferred Table. That’s why we decided to build a new Table as a List replacement suitable for typical users of both views. One example is a simplified way to view a row details: in a sidebar instead of an overlay.
