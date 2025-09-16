@@ -55,22 +55,25 @@
 
     <div class="project__text">
 
-      <p><strong>Role:</strong> Principal Product Designer<br><strong>Timeline:</strong> 2024<br><strong>Scope:</strong> Redesigning Wrike’s filtering system for core product views, Dashboards, Automations, and the new Datahub product<br><strong>Impact:</strong> A reusable, system-wide solution that improved usability for new users, delivered advanced capabilities for power users, and unblocked multiple product teams</p>
+      <p>In 2024, I redesigned Wrike’s outdated filtering system – a core experience used daily across the product. Users struggled with even simple filtering tasks, while advanced scenarios were impossible. I run a series of interviews with experienced users to understand what functionality they miss and tested the existing UI with new users to find critical interaction challenges – and then replaced the clunky old filters with a streamlined filter bar, introducing new features like sliding date ranges, and / or, exclusion filters and more. The new features were an immediate success between the existing customers and helped to improve the product adoption by new users. I built it as a reusable platform for different user scenarios and data types, and it later powered Automations, Dashboards, and Wrike’s new Datahub product.</p>
 
-      <h2>TL;DR</h2>
-      <p>In 2024, I redesigned Wrike’s outdated filtering system – a core experience used daily across the product. Users struggled with even simple filtering tasks, while advanced scenarios were impossible. I run a series of interviews with experienced users to understand what functionality they miss and tested the existing UI with new users to find critical interaction challenges – and then replaced the clunky old filters with a streamlined filter bar, introducing new features like <strong>sliding date ranges, and / or, exclusion filters</strong> and more. [something about happy users]. I built it as a reusable system for other designers, which later powered Automations, Dashboards, and Wrike’s new Datahub product.</p>
+    </div>
       <p>[💡 Visual: before/after screenshots of filters, highlighting simplicity and new capabilities]</p>
 
+    <div class="project__text">
       <h2>The Problem</h2>
-      <p>I first discovered the problem while working on Wrike’s <strong>Table view</strong>, where users manage large, spreadsheet-like projects. In interviews, both new and experienced users complained about struggling to find information in complex tables.</p>
-      <ul>
-        <li><strong>New users</strong> failed basic filtering tasks during UI testing sessions. People didn’t understand if any filters were applied, and even tasks like “See all tasks in Active status” were impeded by the old filters complex hierarchical structure.</li>
-        <li><strong>Experienced users</strong> told us filtering didn’t work as expected or lacked key options. Many clients wanted to automate scenarios of seeing planned work (“Each sprint we need to manually look for the tasks with specific dates instead of setting up <em>due this sprint</em> once”). Others were struggling with navigating a portfolio of projects: “I want to find <em>overdue tasks</em> in multiple <em>projects assigned to me</em> – but I can’t filter by both at the same time”.</li>
-        <li><strong>Analytics</strong> confirmed filters were heavily used across Wrike — making their poor usability a critical blocker.</li>
-      </ul>
-      <p>At the same time, the company’s OKRs emphasized <strong>improving new user engagement</strong>, and a new internal product (later launched as <strong>Datahub</strong>) required best-in-class filtering. Filters were no longer just a UI element — they were becoming strategic infrastructure.</p>
+      <p>I first discovered the problem while working on Wrike’s <a href="../table-view/">Table view</a>, where users manage large, spreadsheet-like projects. In interviews, both new and experienced users complained about struggling to find information in complex tables.</p>
+      
+      <p><strong>New users</strong> failed basic filtering tasks during UI testing sessions. People didn’t understand if any filters were applied, and even tasks like “See all tasks in Active status” were impeded by the old filters complex hierarchical structure.</p>
+
+      <p><strong>Experienced users</strong> told us filtering didn’t work as expected or lacked key options. Many clients wanted to automate scenarios of seeing planned work (“Each sprint we need to manually look for the tasks with specific dates instead of setting up <em>due this sprint</em> once”). Others were struggling with navigating a portfolio of projects: “I want to find <em>overdue tasks</em> in multiple <em>projects assigned to me</em> – but I can’t filter by both at the same time”.</p>
+      
+      <p>Analytics confirmed filters were heavily used across Wrike — making their poor usability a critical blocker. At the same time, the company’s OKRs emphasized <strong>improving new user engagement</strong>, and a new internal product (later launched <a href="https://www.wrike.com/features/datahub/">as Datahub</a>, a potential Airtable rival) required best-in-class filtering. All that made Filters strategic infrastructure.</p>
+
+    </div>
       <p>[💡 Visual: screenshot of old filters, user quotes, or test failure data]</p>
 
+    <div class="project__text">  
       <h2>The Challenge</h2>
       <p>Filters were used in many different contexts — views, dashboards, automations, and soon, Datahub. Each had slightly different data types, rules, and technical constraints.</p>
       <p>The challenge was to design <strong>one system</strong> that could:</p>
@@ -80,9 +83,10 @@
           <li>Support advanced scenarios without overwhelming beginners</li>
           <li>Be easy for other designers to adopt and extend</li>
         </ul>
-      
+    </div>
       <p>[💡 Visual: diagram showing filtering in multiple contexts (Views, Dashboards, Automations, Datahub)]</p>
 
+    <div class="project__text">
       <h2>Discovery</h2>
       <p>I researched two main directions. First, I wanted to understand what existing requests could be solved with filters – even if the users themselves didn’t ask for filters improvements specifically. I analyzed all the feedback regarding the search for information and navigating in complex projects and project portfolios. When interviewing users directly, talking to our customer success organisation, and reading what people were asking for in the community forums, I heard several repeating requests.</p>
       <ol>
@@ -91,11 +95,19 @@
         <li>Chained filters: find data by related data, eg all tasks</li>
       </ol>
       <p>It helped me to shape the solution: adding new functionality was justified be it useful for the cases.</p>
-      <p>[some pic of solution for the three? Or some quotes from community, but it’s booooring]</p>
+    </div>
+
+    <p>[some pic of solution for the three? Or some quotes from community, but it’s booooring]</p>
+
+    <div class="project__text">
       <p>Second, I needed to find the most critical issues with the existing UI. Together with the UX researcher, we ran several tests with people who’d never used Wrike before: we asked them to perform the basic filter scenarios – those most popular in our analytics data.</p>
       <p>This allowed me to focus on the issues mostly affecting new users, which was the company focus at the moment: the main metric was new users retention, and we hoped to improve it by making the basic features easier to use. It also helped to establish a benchmark for the new solution and validate it later on (obviously, it would have to perform better).</p>
-      <p>[the pic with the problems found? From some presentation]</p>
+    </div>
+    
+    <p>[the pic with the problems found? From some presentation]</p>
+    <p>[💡 Visuals: user quotes, test failure data, or screenshots highlighting</p>
 
+    <div class="project__text">
       <h2>Solution</h2>
       <p><strong>Filter bar with search</strong></p>
       <ul>
@@ -105,6 +117,9 @@
         <li>Search right away</li>
         <li>Table columns above</li>
       </ul>
+    </div>
+
+    <div class="project__text">
       <p>[video]</p>
       <ul>
         <li>Future AI</li>
@@ -122,15 +137,20 @@
         <li>Builder? Not sure if I have a pic – powerful but too complex for most scenarios.</li>
         <li>Clickable chips because of the localisation</li>
       </ul>
+    </div>
 
-      <h2>Validation</h2>
+    <div class="project__text">
+    <h2>Validation</h2>
       <ul>
         <li><strong>Benchmark Testing:</strong> Ran side-by-side usability tests with new users on old filters vs. new filter bar → showed clear improvements in success rates. [💡 Insert metric if possible]</li>
         <li><strong>Alpha Testing:</strong> Partnered with engineers to release an early alpha version in Wrike’s internal account and to pilot customers. Collected real feedback on advanced cases with real datasets.</li>
         <li><strong>Iterative Refinement:</strong> Incorporated feedback from sales, early adopters, and power users.</li>
       </ul>
-      <p>[💡 Visuals: testing scenarios, usability results, quotes from alpha users]</p>
+    </div>
 
+    <p>[💡 Visuals: testing scenarios, usability results, quotes from alpha users]</p>
+
+    <div class="project__text">
       <h2>Results & Impact</h2>
       <p>The new features were an immediate success between the power users, especially the big enterprise accounts. Thanks to the introduction of new date filters, we secured several account expansions and prevented a couple of churn cases.</p>
       <p>Since the new filters were introduced, we see an improvement in the new users retention (on average, people spend more days exploring the product while on trial), which our analytics tie with rising conversion to paid accounts. However, I can’t of course be confident that filters alone contributed to this.</p>
@@ -142,8 +162,8 @@
         <li>I drove the effort end-to-end — from framing the opportunity, through research and design, to delivery and adoption.</li>
         <li>Acting as a <strong>design system leader and cross-team facilitator</strong> proved as important as the design craft itself.</li>
       </ul>
-      <p>[💡 Optional: timeline of project with milestones from research → concept → testing → launch]</p>
     </div>
+    <p>[💡 Optional: timeline of project with milestones from research → concept → testing → launch]</p>
   </article>
 
 
