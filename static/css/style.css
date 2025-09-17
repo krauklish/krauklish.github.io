@@ -1,9 +1,31 @@
+/* FERRO font */
+
+/* Copyright (c) 2023 by Gayane Bagdasaryan, Vyacheslav Kirilenko. All rights reserved. */
+@font-face {
+	font-family: 'FerroGroteskRegular';
+	src:
+	     url('/static/fonts/FerroGrotesk-regular.woff2') format('woff2'),
+	     url('/static/fonts/FerroGrotesk-regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Copyright (c) 2023 by Gayane Bagdasaryan, Vyacheslav Kirilenko. All rights reserved. */
+@font-face {
+	font-family: 'FerroGroteskBold';
+	src:
+	     url('/static/fonts/FerroGrotesk-bold.woff2') format('woff2'),
+	     url('/static/fonts/FerroGrotesk-bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 /*LAYOUT*/
 
 body {
 	/* TODO: decrease body padding; increase side padding; align first header with side photo */
 	padding: 1rem 1rem 0 1rem;
 	font-family: 
+		/* "FerroGroteskRegular", */
 		-apple-system, 
 		BlinkMacSystemFont, 
 		"Helvetica", 
