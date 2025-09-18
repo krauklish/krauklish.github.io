@@ -25,7 +25,7 @@ body {
 	/* TODO: decrease body padding; increase side padding; align first header with side photo */
 	padding: 1rem 1rem 0 1rem;
 	font-family: 
-		/* "FerroGroteskRegular", */
+		"FerroGroteskRegular",
 		-apple-system, 
 		BlinkMacSystemFont, 
 		"Helvetica", 
@@ -126,12 +126,11 @@ html {
 
 h1, h2, h3, h4 {
 	font-family: 
-		"Normalidad UltraExtended Bold",
+		"FerroGroteskBold",
 		-apple-system, 
 		BlinkMacSystemFont, 
 		"Helvetica", 
 		sans-serif;
-	font-weight: 700;
 	font-style: normal;
 }
 
