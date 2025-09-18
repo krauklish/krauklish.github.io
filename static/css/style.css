@@ -123,6 +123,15 @@ hr {
 html {
 	font-size: 12px;
 }
+strong {
+	font-family: 
+		"FerroGroteskBold",
+		-apple-system, 
+		BlinkMacSystemFont, 
+		"Helvetica", 
+		sans-serif;
+	font-weight: normal;
+}
 
 h1, h2, h3, h4 {
 	font-family: 
@@ -139,7 +148,7 @@ h1 {
 	line-height: 1.3;
 	cursor: default;
 	text-align: center;
-	margin: 0.5em 0 0.3em 0;
+	margin: 20px 0 0.3em 0;
 }
 
 h2 {
@@ -189,7 +198,7 @@ p.item__info {
 }
 
 .project__text {
-	font-size: 20px;
+	font-size: 18px;
 	line-height: 1.5;
 	max-width: 960px;
 	align-items: flex-start;
