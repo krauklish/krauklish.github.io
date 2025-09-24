@@ -125,13 +125,6 @@
 
     <p class="pic__caption">[a pic with AI (see JB deck)]</p>
 
-<!-- details; expand later
-    <div class="project__text">
-      <p><strong>The little details.</strong>Filters are now available from the column menu in Table: a tiny addition that hugely helped users switching from Excel feel at home.</p>
-    </div>
-    <p class="pic__caption">[a video with column filter]</p>
--->
-
     <div class="project__text">
       <p><strong>Consistent data types.</strong>I wanted to support existing and lay foundation for future filtering scenarios, both in Wrike workspace with tasks and projects and other contexts with different data model. I created a system where there's a standard filter UI for all data types available in the system: text, number, date, single- and multi-selects, checkbox (boolean type).</p>
     </div>
@@ -143,11 +136,14 @@
     <p class="pic__caption">[date filter functionality: video, big pic]</p>  
     
     <div class="project__text">
-      <p>Another long-awaited addition was an exclusion filter: the «is not» predicate was added to all filters where it made sense.</p>
+      <p>Another long-awaited addition was an exclusion filter: the «is not» predicate was added to all filter types where it made sense. One of the use cases is excluding unnecessary statuses:</p>
     </div>
+    <p class="pic__caption">[video of status filter with "is not"]</p>
     
-      
-      <p>parent filter</p>
+    <div class="project__text">
+      <p>The case when people needed to find tasks by properties of the projects was solved by the Parent filter. The initial idea was to create a universal multi-level property filter, allowing to target properties of related items and make complex requests like: «all tasks where assignee's location is Prague». However, after showing it to users I realized that we may start with a specific case that would solve the most common issue. That said, UI is made so it could be reused for a universal filter later.</p>
+    </div>
+    <p class="pic__caption">[a pic or a video of parent filter]</p>
       
     <div class="project__text">
       <p>A tiny but important detail: filtering is now available from the column menu in Table view. The addition improved discoverability and hugely helped users switching from Excel feel at home.</p>
@@ -164,8 +160,10 @@
 
     <div class="project__text">
     <h2>Validation</h2>
+    <div class="project__text"> 
+    <p>To validate the solution, I used several methods, depending on the stage.</p>
+    <p><strong>Benchmark Testing.</strong> To undertand if the new solution is better for new users, I ran side-by-side usability tests with people unfamiliar with Wrike. The respondents were asked to perform the same basic tasks either in real Wrike UI with old filters or in a high-fidelity interactive prototype with the new filter bar; each task was given a success rate. The new UI showed clear improvements.</p>
       <ul>
-        <li><strong>Benchmark Testing:</strong> Ran side-by-side usability tests with new users on old filters vs. new filter bar → showed clear improvements in success rates. [💡 Insert metric if possible]</li>
         <li><strong>Alpha Testing:</strong> Partnered with engineers to release an early alpha version in Wrike’s internal account and to pilot customers. Collected real feedback on advanced cases with real datasets.</li>
         <li><strong>Iterative Refinement:</strong> Incorporated feedback from sales, early adopters, and power users.</li>
       </ul>
