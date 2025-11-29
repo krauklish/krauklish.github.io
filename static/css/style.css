@@ -160,12 +160,16 @@ h2 {
 	margin-top: 2em;
 }
 
-.aside__header {
+.aside__header, .project__footer {
 	/* max-width: 10rem; */
 	font-size: 1.25rem;
 	line-height: 1.8rem;
 	font-weight: 600;
 	margin-top: 0;
+}
+
+.project__footer {
+	padding-top: 80px;
 }
 
 .aside__text {
