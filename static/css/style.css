@@ -177,7 +177,10 @@ h2 {
 	line-height: 1.8rem;
 }
 
-.aside__text a, .project__text a, .aside__header a {
+.aside__text a, 
+.project__text a, 
+.aside__header a,
+.item__info a {
 	border-bottom: 1px solid;
 }
 
@@ -247,7 +250,7 @@ a:hover {
 	transition-timing-function: ease-in;
 }
 
-.item a {
+.item > a {
 	border: none;
 }
 
