@@ -81,8 +81,8 @@ hr {
 }
 
 .item__cover-decoration {
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0.16), 0 2px 8px rgba(0, 0, 0, 0.16);
-	border-radius: 4px;
+	/* border-radius: 4px; */
+	border:rgba(0, 0, 0, 0.08) 1px solid;
 }
 
 .project {
