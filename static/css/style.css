@@ -194,7 +194,8 @@ h2 {
 .project__text a, 
 .aside__header a,
 .item__info a,
-.pic__caption a {
+.pic__caption a,
+.project__footer a {
 	border-bottom: 1px solid;
 }
 
