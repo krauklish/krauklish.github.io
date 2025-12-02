@@ -107,6 +107,18 @@ hr {
 	margin-bottom: 4em;
 }
 
+.project__image:has(+ .pic__caption),
+.project__image--bounded:has(+ .pic__caption) {
+  margin-bottom: 8px;
+}
+
+.pic__caption {
+	max-width: 720px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 20px;
+}
+
 .project__image--browser {
 	border-radius: 10px;
 }
@@ -181,7 +193,8 @@ h2 {
 .aside__text a, 
 .project__text a, 
 .aside__header a,
-.item__info a {
+.item__info a,
+.pic__caption a {
 	border-bottom: 1px solid;
 }
 
@@ -290,6 +303,17 @@ a:hover .item__caption {
 .item__caption.no-link {
 	color: #222;
 	text-decoration: none;
+}
+
+
+
+/* ----- VIDEOS ----- */
+#filters-1 {
+  width: 1196px;
+  height: 598px;
+  object-fit: cover;
+  object-position: center top;
+  background-color: #fff;
 }
 
 
